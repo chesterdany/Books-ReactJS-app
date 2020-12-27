@@ -1,0 +1,19 @@
+.navbar {
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #aabcc7, -5px -5px 10px #e6feff;
+    a img {
+      width: 80px;
+      height: 80px;
+      padding: 5px;
+    }
+  }
+  .buttons {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
