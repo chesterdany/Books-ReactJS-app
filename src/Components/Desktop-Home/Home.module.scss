@@ -1,7 +1,45 @@
-.para {
-  color: blue;
+.homePage {
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 8%;
+  
+  .homeHeaders {
+    display: flex;
+    flex-direction: column;
+    .homeH1 {
+      font-size: 4rem;
+      padding-bottom: 40px;
+    }
+    .homeH3 {
+      font-size: 2rem;
+      font-weight: 400;
+      width: 70%;
+      color: #00B7C2;
+    }
+    .homeStart {
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px #aabcc7, -5px -5px 10px #e6feff;
+      padding: 15px 50px;
+      border: none;
+      background-color: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      color:#34DE2C;
+      margin-top: 70px;
+    }
+  }
 }
 
-.header {
-  font-size: large;
+.vectorImage {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  img {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
 }
+
+
+
