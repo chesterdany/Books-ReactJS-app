@@ -9,7 +9,7 @@ const Navbar = () => {
                 <a href="/"><img src={logo} alt=""/></a>
             </div>
             <div className={styles.buttons}>
-                <button className={styles.about}>About</button>
+                <button className={styles.about}> About</button>
                 <button className={styles.contact}>Contact</button>
             </div>
         </div>
