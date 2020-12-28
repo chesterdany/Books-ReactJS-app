@@ -1,0 +1,61 @@
+.contactPage {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    .contactImage {
+        padding: 20px 120px;
+    }
+    .contactHeader {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+.vector3Image {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    img {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+.contactInput {
+    padding-bottom: 70px;
+    .contactHeader {
+        padding-bottom: 30px;
+    }
+    .text {
+        .inputP {
+            font-size: 1.5rem;
+            color: #00B7C2;
+            font-weight: 300;
+        }
+        .inputField2 {
+            width: 400px;
+            height: 90px;
+            background-color: #e5f5ff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px #aabcc7 inset, -5px -5px 10px #e6feff inset;
+        }
+    }
+
+    .button {
+        padding-top: 50px;
+        .sendButton {
+            width: 400px;
+            height: 40px;
+            background-color: #e5f5ff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px #aabcc7, -5px -5px 10px #e6feff;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color:#34DE2C;
+        }
+    }
+    
+}

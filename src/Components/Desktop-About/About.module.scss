@@ -1,0 +1,30 @@
+.aboutPage {
+    display: flex;
+    padding: 6% 8%;
+    .aboutH1 {
+        padding-bottom: 30px;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .aboutH3 {
+        width: 80%;
+        font-size: 1.5rem;
+        color: #00B7C2;
+        font-weight: 300;
+    }
+    .aboutImage {
+        padding-right: 50px;
+    }
+}
+
+.vector2Image {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    img {
+        width: 100%;
+        position: fixed;
+        bottom: -70px;
+
+    }
+}

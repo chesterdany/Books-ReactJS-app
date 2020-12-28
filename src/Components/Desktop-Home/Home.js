@@ -16,7 +16,9 @@ const Home = () => {
                         here is a good place to start.</h3>
                     </div>
                     <div>
+                        <a href='/'>
                         <button className={styles.homeStart}>Start Journey</button>
+                        </a>
                     </div>
                   </div>
                 <div className={styles.homeImage}>
