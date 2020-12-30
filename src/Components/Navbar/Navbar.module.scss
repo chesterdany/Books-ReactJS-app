@@ -8,29 +8,27 @@
     height: 80px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #aabcc7, -5px -5px 10px #e6feff;
-   
+
     img {
       width: 70px;
       height: 70px;
       padding: 5px;
-     
     }
   }
   .buttons {
-    width: 300px;
+    width: 380px;
     height: 33px;
     display: flex;
     justify-content: space-between;
-    
 
     .button {
       background-color: #e5f5ff;
       border: none;
       border-radius: 10px;
-      box-shadow: 2px 2px 5px #aabcc7 , -5px -5px 10px #e6feff ;
+      box-shadow: 2px 2px 5px #aabcc7, -5px -5px 10px #e6feff;
       padding: 0 35px;
       text-decoration: none;
-      color: #00B7C2;
+      color: #00b7c2;
       font-size: 1.1rem;
       font-weight: bold;
     }
